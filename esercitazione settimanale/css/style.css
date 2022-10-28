@@ -1,0 +1,117 @@
+/*generali*/
+body{
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Suns';
+    line-height: 1.65;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #25a2c3;
+    font-family: 'Monserrat';
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+footer{
+    color: #c8e7f0;
+}
+
+
+/*parte superiore della pagina con logo*/
+
+#logo{
+    background-color: black;
+    height: 100px;
+}
+
+#logoimmagine{
+    max-height: 50px;
+    margin: 25px;  
+}
+
+/*.. parte sotto del logo con immagine del pc..*/
+
+.contenuti-testo{
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+#corsoweb{
+    margin-bottom: 20px;
+}
+
+.pulsante{
+    background-color: rgb(209, 64, 37);
+    font-size: large;
+    color: white;
+    margin-top: 20px;
+}
+
+/* INIZIO sezione terza */
+
+.cell{
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+    .cell {
+        width: 100%;
+        display:block;
+    }
+}
+
+#notebook{
+    width: 250px;
+    border-radius: 300px;
+    margin-left: 80px;
+}
+
+.text-sx-notebook{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.paragrafo-rosso {
+    text-align: center;
+    border-top: 100px;
+    padding-top: 80px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100%;
+    height: 100%;
+   
+}
+
+#scrittacitazione{
+    font-size: 15px;
+    padding-top: 15px;
+    
+}
+
+/* cella con le tre immagini */
+
+.treimg{
+    height: 400px;
+    margin-left: auto; 
+    margin-right:auto; 
+    display:table-cell; 
+    height:100%%; 
+    width:100%;
+
+   
+}
+
+#fotuno{
+   width: 50%;
+   height: 50%;
+}
+
+
+
+
