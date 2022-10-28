@@ -1,14 +1,13 @@
-/*generali*/
 body{
     color: #393d41;
     font-size: 1.2rem;
-    font-family: 'Open Suns';
+    font-family: 'Open Sans';
     line-height: 1.65;
 }
 
 h1,h2,h3,h4,h5,h6{
     color: #25a2c3;
-    font-family: 'Monserrat';
+    font-family: Monserrat;
     font-weight: bold;
     line-height: 1.5;
 }
@@ -17,101 +16,83 @@ footer{
     color: #c8e7f0;
 }
 
-
-/*parte superiore della pagina con logo*/
-
-#logo{
-    background-color: black;
-    height: 100px;
+.cell {
+	width: 33%;
+    height: 100%;
+	display: table-cell;
+	vertical-align: middle;
 }
 
-#logoimmagine{
-    max-height: 50px;
-    margin: 25px;  
+
+.card{
+    border: 1px gray solid;
+    width: 100%;
 }
 
-/*.. parte sotto del logo con immagine del pc..*/
+.margin{
+    margin: 20px;
+}
 
-.contenuti-testo{
+.card-img-top{
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 62.5%;
+}
+
+.card-title-centered{
+
+}
+
+.wrapper{
+    height: 100%;
+    display: flex;
     text-align: center;
-    padding-top: 150px;
-    
 }
 
-#corsoweb{
-    margin-bottom: 20px;
+.wrapper > .notebook-image{
+    height: 100%;
+    flex: 1;
+    order: 1;
+}
+.wrapper > .parte-1{
+    height: 100%;
+    width: 33%;
+    order: 2;
+}
+.wrapper > .parte-2{
+    height: 100%;
+    width: 33%;
+    order: 3;
 }
 
-.pulsante{
-    background-color: rgb(209, 64, 37);
-    font-size: large;
-    color: white;
-    margin-top: 20px;
+.cell-1 {
+	width: 50%;
+	display: table-cell;
+	vertical-align: middle;
 }
 
-/* INIZIO sezione terza */
-
-.cell{
-    width: 50%;
-    display: table-cell;
-    vertical-align: middle;
+.heading-btn{
+    background-color: rgb(209, 64, 37); 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    color: white; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    text-align: center; 
+    border-radius: 5px; 
+    font-size: 12pt;
 }
+
+
+
 
 @media screen and (max-width: 600px) {
-    .cell {
-        width: 100%;
-        display:block;
-    }
+	.cell {
+	    width: 100%;
+		display: block;
+	}
 }
-
-#notebook{
-    width: 250px;
-    border-radius: 300px;
-    margin-left: 80px;
-}
-
-.text-sx-notebook{
-    margin-top: 40px;
-    font-size: 15px;
-}
-
-.paragrafo-rosso {
-    text-align: center;
-    border-top: 100px;
-    padding-top: 80px;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    width: 100%;
-    height: 100%;
-   
-}
-
-#scrittacitazione{
-    font-size: 15px;
-    padding-top: 15px;
-    
-}
-
-/* cella con le tre immagini */
-
-.treimg{
-    height: 400px;
-    margin-left: auto; 
-    margin-right:auto; 
-    display:table-cell; 
-    height:100%%; 
-    width:100%;
-
-   
-}
-
-#fotuno{
-   width: 50%;
-   height: 50%;
-}
-
-
 
 
